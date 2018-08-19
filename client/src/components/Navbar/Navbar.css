@@ -1,0 +1,41 @@
+nav {
+    padding: 0px 50px;
+    background-color:#ff9e80;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #b3e5fc;
+}
+
+img.logo-image {
+    margin-top: 5px;
+    width: 150px;
+    height: auto;
+}
+
+.logo-image{
+    width: 50px;
+    height: auto;
+}
+.searchBtn{
+    margin-right: 10px;
+}
+
+@media (max-width: 375px) {
+   
+    span{
+      font-size: 0.5em;
+    }
+    .logo-image{
+        visibility: hidden;
+    }
+    .menuBtn{
+        margin: 0px;
+        background-color: transparent;
+    }
+    
+}
