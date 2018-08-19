@@ -15,7 +15,7 @@ Whenever a user visits your site, the app should scrape stories from a news outl
 
 # Technologies Used: 
 
-React, Node, Express, Axios, Mongoose, Materialize, Affinity Photo. 
+React, React Router, Node, Express, Axios, Mongoose, Materialize, Affinity Photo. 
 
 
 ![Screen Shot](/client/public/images/paper.png)

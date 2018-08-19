@@ -12,19 +12,18 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-   "devDependencies": {
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
     "concurrently": "^3.5.0",
     "nodemon": "^1.11.0"
   },
-  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
-    "concurrently": "^3.6.1",
     "express": "^4.16.3",
+    "if-env": "^1.0.4",
     "mongoose": "^5.2.9",
-    "nodemon": "^1.18.3",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1"
+    "path": "^0.12.7"
   }
 }
