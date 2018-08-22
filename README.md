@@ -1,7 +1,7 @@
 
 ## React-Newspaper
 
-Deployed app on Heroku [here](https://stark-wildwood-39947.herokuapp.com/).
+Deployed app on Heroku [here](https://limitless-eyrie-23259.herokuapp.com/).
 
 # Project Description:
 
