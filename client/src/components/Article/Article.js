@@ -7,10 +7,10 @@ const Article = props => (
     <div id={props.articleId} className="article-item col s12 l12">
         <div className="card article-card">
             <div className="card-content">
-                <span className="card-title"><Link to={props.articleUrl} target="_blank">{props.articleTitle}</Link></span>
+                <span className="card-title"><a href={props.articleUrl} target="_blank">{props.articleTitle}</a></span>
                 <div className="row">
                     <div className="view col s12 l6">
-                        <Link to={props.articleUrl} target="_blank"><i className="material-icons tiny">open_in_new</i> View Article</Link>
+                        <a href={props.articleUrl} target="_blank"><i className="material-icons tiny">open_in_new</i> View Article</a>
                     </div>
                     <div className="col s12 l6 text-right">
                         <small>Published: {moment(props.articleDate).format("MM/DD/YYYY")}</small>
