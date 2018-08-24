@@ -7,11 +7,13 @@ Deployed app on Heroku [here](https://limitless-eyrie-23259.herokuapp.com/).
 
 The app uses React components, React Router, and the React mounting lifecycle to query and display articles on the front end; Express, Node, and MongoDB to save articles on the back end.
 
-Whenever a user visits your site, the app should scrape stories from a news outlet of your choice and display them for the user. Each scraped article should be saved to your application database. The app scrapes and displays the following information for each article:
+Whenever a user visits your site, the app scrapes stories from a news outlet of your choice and display them for the user. The app scrapes and displays the following information for each article:
 * Headline - the title of the article
-* Summary - a short summary of the article.
-* URL - the url to the original article.
-* Users also can leave comments on the articles displayed and revisit them later. The comments are saved to the database as well and associated with their articles. Users also is able to delete comments left on articles. All stored comments are visible to every user.
+* View Article - the link to oper an article
+* Date of the publication
+
+Users can save article and view saved articles.
+Users also can delete saved articles.
 
 # Technologies Used: 
 
