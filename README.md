@@ -9,7 +9,7 @@ The app uses React components, React Router, and the React mounting lifecycle to
 
 Whenever a user visits your site, the app scrapes stories from a news outlet of your choice and display them for the user. The app scrapes and displays the following information for each article:
 * Headline - the title of the article
-* View Article - the link to oper an article
+* View Article - the link to open an article
 * Date of the publication
 
 Users can save article and view saved articles.
